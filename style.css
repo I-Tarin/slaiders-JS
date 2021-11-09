@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,13 +42,17 @@ body {
 }
 
 .sidebar h1 {
-  font-family: 'Caveat', sans-serif;
-  font-size: 30px;
+  font-family: 'Bad Script', cursive, sans-serif;
+  font-size: 17px;
   margin-bottom: 10px;
-  margin-top: -30px;
+  margin-top: 20px;
   margin-left: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 50px;
+}
+.paragraf {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
 }
 
 .main-slide {
@@ -100,4 +106,85 @@ button:focus {
   transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 2560px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 20px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1440px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 18px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1260px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 14px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+  }
+}
+@media (max-width: 1024px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 12px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 10px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+  }
+}
+@media (max-width: 425px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 6px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 6px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3px;
+  }
+}
+@media (max-width: 321px) {
+  .sidebar h1 {
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-size: 4px;
+  }
+  .paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3px;
+  }
 }
